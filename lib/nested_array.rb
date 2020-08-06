@@ -21,6 +21,7 @@ def assembled_matrix
   # This matrix will represent a produce storage room
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
+  
   assembled_matrix=[CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
 end
 
@@ -28,7 +29,9 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-  
+  sorted_array1=ORGANIC_PRODUCE.sort
+  sorted_array2=CONVENTIONAL_PRODUCE.sort 
+assembled_matrix=  
 end
 
 def matrix_lookup(matrix, row, column)
