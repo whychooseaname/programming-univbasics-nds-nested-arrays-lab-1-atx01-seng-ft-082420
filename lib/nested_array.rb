@@ -31,7 +31,6 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   combined_array=CONVENTIONAL_PRODUCE + ORGANIC_PRODUCE
   puts combined_array.sort
-assembled_matrix=  
 end
 
 def matrix_lookup(matrix, row, column)
