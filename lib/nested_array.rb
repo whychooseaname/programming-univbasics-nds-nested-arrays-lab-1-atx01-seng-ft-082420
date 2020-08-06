@@ -31,6 +31,7 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   sorted_array1=ORGANIC_PRODUCE.sort
   sorted_array2=CONVENTIONAL_PRODUCE.sort 
+  puts sorted_array1
 assembled_matrix=  
 end
 
